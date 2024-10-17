@@ -19,10 +19,9 @@ terraform {
 
 provider "azurerm" {
   features {}
-  skip_provider_registration = true
-  environment                = "public"
-  subscription_id            = "b971283c-e0b7-46a4-9496-9cbfb850ebe5"
-  tenant_id                  = "e824e20c-c5d7-4a69-adb1-3494404763a5"
+  environment     = "public"
+  subscription_id = "b971283c-e0b7-46a4-9496-9cbfb850ebe5"
+  tenant_id       = "e824e20c-c5d7-4a69-adb1-3494404763a5"
 }
 
 provider "azuread" {
