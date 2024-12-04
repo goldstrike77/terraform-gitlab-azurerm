@@ -53,9 +53,9 @@ variable "azurerm_resources" {
             public          = false
             ip_forwarding   = false
             accelerated     = false
-            subnet          = "snet-p-network-vm-eastasia-001"
-            virtual_network = "vnet-p-network-vm-eastasia-001"
-            resource_group  = "rg-p-network-rds-eastasia-001"
+            subnet          = "snet-p-network-compute-eastasia-001"
+            virtual_network = "vnet-p-network-compute-eastasia-001"
+            resource_group  = "rg-p-network-databases-eastasia-001"
             lb_public       = false
             lb_spec         = []
           }
