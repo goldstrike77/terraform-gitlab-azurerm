@@ -33,6 +33,7 @@ before_script:
       }
     }
     EOF
+  - sleep 600
 
 fmt:
   extends: .terraform:fmt
